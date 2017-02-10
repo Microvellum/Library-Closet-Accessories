@@ -102,6 +102,7 @@ class PRODUCT_Pants_Rack_2(classes.Decorative_Assembly):
     def __init__(self):
         self.category_name = "Accessories"
         self.assembly_name = "Pants Rack 2"
+        self.width = unit.inch(18)
         self.assembly_path = os.path.join(CLOSET_ACCESSORIES,"Pants Rack 2.blend")
         
 class PRODUCT_Pull_Out_Hamper(classes.Decorative_Assembly):
@@ -109,6 +110,7 @@ class PRODUCT_Pull_Out_Hamper(classes.Decorative_Assembly):
     def __init__(self):
         self.category_name = "Accessories"
         self.assembly_name = "Pull Out Hamper"
+        self.width = unit.inch(18)
         self.assembly_path = os.path.join(CLOSET_ACCESSORIES,"Pull Out Hamper.blend")
         
 class PRODUCT_Pull_Out_Ironing_Board_Folded(classes.Decorative_Assembly):
@@ -137,6 +139,7 @@ class PRODUCT_Shoe_Fence(classes.Decorative_Assembly):
     def __init__(self):
         self.category_name = "Accessories"
         self.assembly_name = "Shoe Fence"
+        self.width = unit.inch(18)
         self.assembly_path = os.path.join(CLOSET_ACCESSORIES,"Shoe Fence.blend")
                                                                                                                                                                                   
 class PRODUCT_Sliding_Belt_Rack(classes.Decorative_Assembly):
@@ -151,6 +154,7 @@ class PRODUCT_Sliding_Pants_Rack(classes.Decorative_Assembly):
     def __init__(self):
         self.category_name = "Accessories"
         self.assembly_name = "Sliding Pants Rack"
+        self.width = unit.inch(18)
         self.assembly_path = os.path.join(CLOSET_ACCESSORIES,"Sliding Pants Rack.blend")
                                                                                                                                                                                                                                                                        
 class PRODUCT_Sliding_Tie_Rack(classes.Decorative_Assembly):
